@@ -68,9 +68,9 @@
 
 // --------------------------------- //
 
-var itemInput = document.querySelector('input[type="text"]');
-var form = document.querySelector('form');
-var select = document.querySelector('select');
+// var itemInput = document.querySelector('input[type="text"]');
+// var form = document.querySelector('form');
+// var select = document.querySelector('select');
 
 // itemInput.addEventListener('keydown', runEvent);
 // itemInput.addEventListener('keyup', runEvent);
@@ -87,16 +87,16 @@ var select = document.querySelector('select');
 // select.addEventListener('change', runEvent);
 // select.addEventListener('input', runEvent);
 
-form.addEventListener('submit', runEvent);
+// form.addEventListener('submit', runEvent);
 
-function runEvent(e) {
-  e.preventDefault();
-  console.log('EVENT TYPE: ' + e.type);
+// function runEvent(e) {
+//   e.preventDefault();
+//   console.log('EVENT TYPE: ' + e.type);
 
-  // // !!! With this if you cut everything disappear !!!
-  // document.body.style.display = 'none';
+//   // !!! With this if you cut everything disappear !!!
+//   document.body.style.display = 'none';
 
-  // console.log(e.target.value);
-  // document.getElementById('output').innerHTML =
-  //   '<h3>' + e.target.value + '</h3>';
-}
+//   console.log(e.target.value);
+//   document.getElementById('output').innerHTML =
+//     '<h3>' + e.target.value + '</h3>';
+// }
