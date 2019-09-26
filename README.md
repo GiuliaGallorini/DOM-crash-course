@@ -10,15 +10,15 @@ The Document Object Model:
 - JavaScript can be used to read/write/manipulate to the DOM and its elements<br>
 - it is an Object Oriented Representation, it means that each node has its own properties and methods<br>
 
-The Browser gives a window object that represents the browser itself, it is a top-level object; then a root element inside the document; and a root element that is the <html> tag (or element or node); inside we have children like <head> and <body> tags; those have their own children (<title>, <meta>, <header>, <div>, <a>, <h1>, <input>, <form>, <ul>, <li>, etc) that have texts.<br>
+The Browser gives a window object that represents the browser itself, it is a top-level object; then a root element inside the document; and a root element that is the 'html' tag (or element or node); inside we have children like 'head' and 'body' tags; those have their own children ('title', 'meta', 'header', 'div', 'a', 'h1', 'input', 'form', 'ul', 'li', etc) that have texts.<br>
 
 ## JQUERY
 
-The JQuery uses the dollar sign for the variables \$
+The JQuery uses the dollar sign for the variables, ex. \$titles
 
 ## STYLE
 
-It is installed Bootstrap.
+For the style it is installed Bootstrap.
 
 ## EXAMINE THE DOCUMENT OBJECT
 
